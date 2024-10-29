@@ -1,0 +1,24 @@
+.page {
+    margin: 0 auto;
+    min-height: 100%;
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    font-family: "Rubik-wet-paint", Helvetica, sans-serif;
+  }
+  
+  .page__content {
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page__section {
+    min-height: 900px;
+  }
+  
+  .page__section .animate {
+    transition: 4s;
+  }
+  
